@@ -1,0 +1,120 @@
+body {	
+	margin: 0;
+	padding: 0;
+	font-family: 'Spectral', serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #1a1a1a;
+}
+#main {
+	margin: 30px 10px;
+	background-color: #d9d9d9;
+	padding: 15px;
+	border-radius: 5px;
+}
+#title {
+	font-size: 3.2em;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 20px;
+	font-weight: bold;
+}
+header p {
+	text-align: center;
+	margin: 5px 0;
+	font-size: 18px;
+}
+#img-div {
+	text-align: center;
+	background-color: #fff;
+	padding: 5px 0;
+	border-radius: 5px;
+}
+#image {
+	max-width: 100%;
+	height: auto;
+	border-radius: 15%;
+	margin: 5px auto;
+	padding: 10px 0;
+}
+figcaption {
+	padding-bottom: 10px; 
+}
+#info {
+	text-align: center;
+    font-size: 22px;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+#first-section, #second-section {
+	width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3%;
+    margin: 0 auto;
+}
+#first-timeline, #second-timeline, #third-timeline,  #fourth-timeline {
+    width: 480px;
+    height: 650px;
+    padding: 2%;
+    text-align: center;
+} 
+#fourth-timeline {
+	height: 760px;
+}
+#first-ul, #second-ul, #third-ul, #fourth-ul {
+	text-align: justify;
+	list-style: none;
+}
+.img-1, .img-2, .img-3, .img-4 {
+	max-width: 100%;
+	height: auto;
+}
+p {
+	margin: 0px 0px 20px 0px;
+	text-align: center;
+}
+hr {
+	width: 60%;
+}
+a#tribute-link {
+	text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+@media screen and (max-width: 1135px) {
+	#first-timeline, #second-timeline, #third-timeline,  #fourth-timeline {
+		width: 420px;
+		font-size: 0.9em;
+	}	
+}
+@media screen and (max-width: 912px) {
+	#first-section, #second-section {
+		flex-wrap: wrap;
+	}
+}
+@media screen and (max-width: 487px) {
+	#title {
+		font-size: 2.5em;
+	}
+	#info {
+		font-size: 20px;
+	}
+	#first-section, #second-section {
+		width: 40%;
+		font-size: 0.9em;
+	}
+	#fourth-timeline {
+		margin-bottom: 20px;
+	}
+	figcaption {
+		font-size: 15px;
+	}
+	#footer p {	
+		font-size: 14px;
+	}
+	#first-ul, #second-ul, #third-ul, #fourth-ul {
+		padding: 0;
+		margin: 0;
+	}
+}
